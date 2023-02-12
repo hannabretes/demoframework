@@ -4,7 +4,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import pytest
 from selenium.webdriver.support.wait import WebDriverWait
-from pages.base_page import BasePage
+
+from demoframework.testframeworkdemo.pages.base_page import BasePage
 
 
 class StartPage(BasePage):
